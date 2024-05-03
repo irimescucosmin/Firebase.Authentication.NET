@@ -1,11 +1,15 @@
 ### Firebase Authentication Service
 
-The repository contains the source code for a Firebase-based authentication service. The service is implemented using ASP.NET Core and offers the following functionality:
+The repository contains the source code for a Firebase-based authentication service. This code was written to accompany the tutorial [Integrare l'autenticazione di Firebase nel tuo progetto .NET](https://cosminirimescu.com/integrare-l-autenticazione-di-firebase-nel-tuo-progetto-dotnet/) (Italian language).
+
+The service is implemented using ASP.NET Core and offers the following functionality:
 
 - Registration of new users
 - Login for existing users
 - Obtaining user information
 - Logout functionality
+
+Before running the application, you will need to configure a Firebase project and obtain the necessary credentials.
 
 The configuration of the Firebase authentication service is done via the `appsettings.json` file, where the web API keys and the Firebase project ID are specified.
 
